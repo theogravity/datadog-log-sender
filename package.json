@@ -1,8 +1,7 @@
 {
-  "name": "boilerplate-typescript",
-  "private": true,
+  "name": "datadog-log-sender",
   "version": "1.0.1",
-  "description": "My personal boilerplate for new projects using typescript",
+  "description": "Send logs to DataDog using secure sockets via TCP",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "scripts": {
@@ -32,14 +31,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/theogravity/boilerplate.git"
+    "url": "git+https://github.com/theogravity/datadog-log-sender.git"
   },
   "author": "Theo Gravity <theo@suteki.nu>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/theogravity/boilerplate/issues"
+    "url": "https://github.com/theogravity/datadog-log-sender/issues"
   },
-  "homepage": "https://github.com/theogravity/boilerplate#readme",
+  "keywords": [
+    "datadog",
+    "log",
+    "logs",
+    "send",
+    "api",
+    "telnet"
+  ],
+  "homepage": "https://github.com/theogravity/datadog-log-sender#readme",
   "dependencies": {},
   "devDependencies": {
     "@theo.gravity/changelog-version": "^2.1.10",
@@ -54,6 +61,7 @@
     "jest-cli": "^26.6.3",
     "jest-junit-reporter": "^1.1.0",
     "lint-staged": "^10.5.4",
+    "openssl-self-signed-certificate": "^1.1.6",
     "pre-commit": "^1.2.2",
     "prettier-standard": "^16.4.1",
     "standardx": "^7.0.0",

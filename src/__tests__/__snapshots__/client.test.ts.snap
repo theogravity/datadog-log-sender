@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Datadog log sending client should send data 1`] = `
+Array [
+  "test-key Unstructured log data
+",
+  "test-key {\\"message\\":\\"JSON formatted log sent through TLS\\",\\"ddtags\\":\\"env:dd-send-log\\",\\"ddsource\\":\\"terminal\\",\\"hostname\\":\\"gs-hostame\\",\\"service\\":\\"user\\"}
+test-key {\\"message\\":\\"JSON formatted log sent through TLS 2\\",\\"ddtags\\":\\"env:dd-send-log\\",\\"ddsource\\":\\"terminal\\",\\"hostname\\":\\"gs-hostame\\",\\"service\\":\\"user\\"}
+",
+]
+`;
