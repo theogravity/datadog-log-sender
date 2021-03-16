@@ -1,5 +1,10 @@
 # datadog-log-sender
 
+[![NPM version](https://img.shields.io/npm/v/datadog-log-sender.svg?style=flat-square)](https://www.npmjs.com/package/datadog-log-sender)
+[![CircleCI](https://circleci.com/gh/theogravity/datadog-log-sender.svg?style=svg)](https://circleci.com/gh/theogravity/datadog-log-sender)
+![built with typescript](https://camo.githubusercontent.com/92e9f7b1209bab9e3e9cd8cdf62f072a624da461/68747470733a2f2f666c61742e62616467656e2e6e65742f62616467652f4275696c74253230576974682f547970655363726970742f626c7565)
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
 Sends logs to Datadog using the secure socket method described [here](https://docs.datadoghq.com/getting_started/logs/).
 
 This is useful if you are unable to install the DataDog Agent to consume logs.
