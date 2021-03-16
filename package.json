@@ -44,7 +44,13 @@
     "logs",
     "send",
     "api",
-    "telnet"
+    "telnet",
+    "secure",
+    "sockets",
+    "tcp",
+    "tls",
+    "agent",
+    "logging"
   ],
   "homepage": "https://github.com/theogravity/datadog-log-sender#readme",
   "dependencies": {},
